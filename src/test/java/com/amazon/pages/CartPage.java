@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CartPage {
+    private WebDriver driver;
     private WebDriverWait wait;
 
     private By cartItems = By.cssSelector(".sc-list-item-content");
